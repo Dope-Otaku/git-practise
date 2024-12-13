@@ -1,5 +1,7 @@
 version_number = 11
-message = 'this time its the difference between local and remote changes version! [change]'
+message = 'this time its the difference between two different branches! [change]'
+
+branch = b1
 
 
-print(f"{version_number}: {message}")
+print(f"{version_number}: {message} --> in Branch:{branch}")
